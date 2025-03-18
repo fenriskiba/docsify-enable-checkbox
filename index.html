@@ -14,6 +14,30 @@
     <link rel="stylesheet" media="(prefers-color-scheme: dark)"
         href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 
+    <!-- docsify-themeable customizations (light mode) -->
+    <style media="(prefers-color-scheme: light)">
+        :root {
+            /* Sidebar Title */
+            --sidebar-name-color: ;
+
+            /* Sidebar Link (active) */
+            --sidebar-nav-link-color--active: ;
+            --sidebar-nav-link-border-width--active: 2px;
+        }
+    </style>
+
+    <!-- docsify-themeable customizations (dark mode) -->
+    <style media="(prefers-color-scheme: dark)">
+        :root {
+            /* Sidebar Title */
+            --sidebar-name-color: ;
+
+            /* Sidebar Link (active) */
+            --sidebar-nav-link-color--active: ;
+            --sidebar-nav-link-border-width--active: 2px;
+        }
+    </style>
+
     <!-- PrismJS Style -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@1.15.0/themes/prism-tomorrow.min.css">
 </head>
@@ -22,11 +46,15 @@
     <div id="app"></div>
     <script>
         window.$docsify = {
-            name: '',
-            repo: '',
+            name: 'docsify-enable-checkbox',
+            repo: 'https://github.com/fenriskiba/docsify-enable-checkbox',
+            loadSidebar: true,
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+            },
             docsifyEnableCheckbox: {
                 includeAll: true,
-                excludedPagesList: ["/test"]
+                excludedPagesList: ["/examples/excluded", "/examples/excluded.md"]
             }
         }
     </script>
@@ -34,8 +62,8 @@
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <!-- Other Theme Extensions -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
-    <script src="//unpkg.com/prismjs@1.15.0/components/prism-c.min.js"></script>
-    <script src="//unpkg.com/prismjs@1.15.0/components/prism-cpp.min.js"></script>
+    <script src="//unpkg.com/prismjs@1.15.0/components/prism-javascript.min.js"></script>
+    <script src="//unpkg.com/prismjs@1.15.0/components/prism-markdown.min.js"></script>
     <!-- enable checkbox script -->
     <script src='enable-checkbox.js'></script>
 </body>
