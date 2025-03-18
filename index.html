@@ -24,6 +24,10 @@
         window.$docsify = {
             name: '',
             repo: '',
+            docsifyEnableCheckbox: {
+                includeAll: true,
+                excludedPagesList: ["/test"]
+            }
         }
     </script>
     <!-- Docsify v4 -->
@@ -33,10 +37,7 @@
     <script src="//unpkg.com/prismjs@1.15.0/components/prism-c.min.js"></script>
     <script src="//unpkg.com/prismjs@1.15.0/components/prism-cpp.min.js"></script>
     <!-- enable checkbox script -->
-    <!-- TODO: Update this to use published once available -->
-    <script
-        src='https://raw.githubusercontent.com/fenriskiba/docsify-enable-checkbox/refs/heads/main/enable-checkbox.js'></script>
-    <!-- <script src='../enable-checkbox.js'></script> -->
+    <script src='enable-checkbox.js'></script>
 </body>
 
 </html>
