@@ -1,3 +1,3 @@
-- [README](/)
-- [Enabled Example](examples/included.md)
+- [docsify-enable-checkbox](/)
+- [Included Example](examples/included.md)
 - [Excluded Example](examples/excluded.md)

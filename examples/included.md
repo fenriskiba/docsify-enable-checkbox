@@ -1,4 +1,4 @@
-# Enabled Example
+# Included Example
 **If you are viewing this from the Github code view, please go to [the Github Pages site](https://fenriskiba.github.io/docsify-enable-checkbox/#/examples/included.md) to see the example in action.**
 
 Since this page has checkboxes enabled by default, the following Markdown will result in checkboxes that users can interact with.
