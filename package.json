@@ -1,0 +1,11 @@
+{
+    "name": "docsify-enable-checkbox",
+    "version": "1.0.0",
+    "main": "docsify-enable-checkbox.js",
+    "author": "Grant I Carroll <gcarroll2603@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "mkdir -p dist && npx terser -c -m -o dist/docsify-enable-checkbox.min.js -- docsify-enable-checkbox.js",
+        "docs": "docsify serve ."
+    }
+}
