@@ -1,3 +1,5 @@
+# **Archiving because I'm not actively maintaining or using this and [Docsify Interactive Checkboxes](https://andreferra.github.io/docsify-plugin-interactive-checkboxes/#/) seems like the better solution.**
+
 # Docsify Enable Checkbox
 A simple Docsify extension to make rendered checkboxes enabled.
 
